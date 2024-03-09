@@ -40,9 +40,10 @@ The client has been succesfully configured
 ```sh
 . start.sh
 ```
-3. Open the modified client
-4. On the login screen you can use any username and password(After the first log-in the information will be saved and you will be loged-in automatically
-5. Enjoy
+3. If the server fails to start press ```ctrl``` using the buttons above keyboard and ```c``` and retry step 2
+4. Open the modified client
+5. On the login screen you can use any username and password(After the first log-in the information will be saved and you will be loged-in automatically
+6. Enjoy
 ## Stopping the server
 1. Open the nix-on-droid application press ```ctrl``` using the buttons above keyboard and ```c```.
 2. Type ```exit``` and press enter (the applicaiton will close automatically)
