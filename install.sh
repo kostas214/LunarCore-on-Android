@@ -4,10 +4,14 @@ unzip LunarCore.zip
 rm LunarCore.zip
 mkdir resources
 git clone https://github.com/Dimbreath/StarRailData
-mv /StarRailData/Config /StarRailData/ExcelOutput /StarRailData/TextMap /resources
+cd StarRailData
+mv Config ExcelOutput TextMap ~/LunarCore-on-Android/resources
+cd ..
 rm -rf StarRailData
 git clone https://gitlab.com/Melledy/LunarCore-Configs
-mv LunarCore-Configs/Config /resources
+cd LunarCore-Configs
+mv Config ~/LunarCore-on-Android/resources
+cd ..
 rm -rf LunarCore-Configs
 cp start.sh ~/
 cd
