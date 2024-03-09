@@ -1,0 +1,116 @@
+{
+  "accountDatabase": {
+    "uri": "mongodb://localhost:27017",
+    "collection": "lunarcore",
+    "useInternal": true
+  },
+  "gameDatabase": {
+    "uri": "mongodb://localhost:27017",
+    "collection": "lunarcore",
+    "useInternal": true
+  },
+  "internalMongoServer": {
+    "address": "localhost",
+    "port": 27017,
+    "filePath": "database.mv"
+  },
+  "useSameDatabase": true,
+  "keystore": {
+    "path": "./keystore.p12",
+    "password": "lunar"
+  },
+  "httpServer": {
+    "useSSL": false,
+    "regionListRefresh": 60000,
+    "bindAddress": "0.0.0.0",
+    "bindPort": 5000,
+    "publicAddress": "127.0.0.1",
+    "publicPort": null
+  },
+  "gameServer": {
+    "id": "lunar_rail_test",
+    "name": "Lunar Core",
+    "description": "A LunarCore server",
+    "kcpInterval": 40,
+    "bindAddress": "0.0.0.0",
+    "bindPort": 23301,
+    "publicAddress": "127.0.0.1",
+    "publicPort": null
+  },
+  "serverOptions": {
+    "autoCreateAccount": true,
+    "sceneMaxEntites": 500,
+    "maxCustomRelicLevel": 15,
+    "unlockAllChallenges": true,
+    "spendStamina": true,
+    "staminaRecoveryRate": 300,
+    "staminaReserveRecoveryRate": 1080,
+    "startTrailblazerLevel": 1,
+    "autoUpgradeWorldLevel": true,
+    "language": "EN",
+    "defaultPermissions": [
+      "*"
+    ],
+    "serverFriendInfo": {
+      "name": "Server",
+      "signature": "Type /help for a list of commands",
+      "level": 1,
+      "headIcon": 201001,
+      "chatBubbleId": 0,
+      "displayAvatarId": 1001,
+      "displayAvatarLevel": 1
+    },
+    "welcomeMail": {
+      "title": "Welcome to a LunarCore server",
+      "sender": "Server",
+      "content": "Welcome to Lunar Core! Please take these items as a starter gift. For a list of commands, type /help in the server chat window. Check out our \u003ca type\u003dOpenURL1 href\u003dhttps://discord.gg/cfPKJ6N5hw\u003eDiscord\u003c/a\u003e and \u003ca type\u003dOpenURL1 href\u003dhttps://github.com/Melledy/LunarCore\u003eGithub\u003c/a\u003e for more information about the server.",
+      "attachments": [
+        {
+          "id": 2,
+          "count": 1000000
+        },
+        {
+          "id": 101,
+          "count": 100
+        },
+        {
+          "id": 102,
+          "count": 100
+        },
+        {
+          "id": 1001,
+          "count": 1
+        },
+        {
+          "id": 1002,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "serverTime": {
+    "spoofTime": false,
+    "spoofDate": "15-01-2024 02:00:00"
+  },
+  "serverRates": {
+    "exp": 1.0,
+    "credit": 1.0,
+    "jade": 1.0,
+    "material": 1.0,
+    "equip": 1.0
+  },
+  "logOptions": {
+    "commands": true,
+    "connections": true,
+    "packets": false,
+    "filterLoopingPackets": false
+  },
+  "downloadData": {
+    "assetBundleUrl": null,
+    "exResourceUrl": null,
+    "luaUrl": null,
+    "ifixUrl": null
+  },
+  "resourceDir": "./resources",
+  "dataDir": "./data"
+}
