@@ -21,3 +21,8 @@ A comprehensive guide on how to run the server implementation of a certain turn 
 nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs && nix-channel --update && nix-env -iA nixpkgs.git && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && . install.sh
 ```
 Congratulations you have succesfully installed the LunarCore server
+## First Log-in
+After downloading the game data from "Client installation" step
+1. Click here (If you missed the promt just restart the app)
+<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step1.jpg" align="center" ></a>
+2.
