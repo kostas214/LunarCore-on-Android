@@ -9,6 +9,7 @@ A comprehensive guide on how to run the server implementation of a certain turn 
 5. When the installation of bootstrap packages finishes you will need to write ```y``` and press enter on your keyboard
 6. Wait for everything to finish(It will take a while so be patient. If it looks like its stuck, its not be patient it will eventually finish)
 7. After everything finishes copy the command bellow and paste it onto the terminal by long pressing and clicking paste (This too will take a while be patient)
+8. Start the server by typing ```. start.sh```
 ```sh
 nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs && nix-channel --update && nix-env -iA nixpkgs.git && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && . install.sh
 ```
@@ -25,7 +26,7 @@ Congratulations you have succesfully installed the LunarCore server
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step5.jpg" align="center" ></a>
 6. Press on the button as shown in the picture
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step6.jpg" align="center" ></a>
-8. Start the server then login and wait for the data to download
+8. Wait for the data to download and you can play 
 ## Starting the server
 1. Open Nix-on-droid application
 2. Copy and paste this command
