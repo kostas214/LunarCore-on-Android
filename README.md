@@ -9,10 +9,14 @@ A comprehensive guide on how to run the server implementation of a certain turn 
 5. When the installation of bootstrap packages finishes you will need to write ```y``` and press enter on your keyboard
 6. Wait for everything to finish(It will take a while so be patient. If it looks like its stuck, its not be patient it will eventually finish)
 7. After everything finishes copy the command bellow and paste it onto the terminal by long pressing and clicking paste (This too will take a while be patient)
-8. Start the server by typing ```. start.sh```
 ```sh
 nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs && nix-channel --update && nix-env -iA nixpkgs.git && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && . install.sh
 ```
+8. Copy and paste this command
+```sh
+. start.sh
+```
+9. If the server fails to start press ```ctrl``` using the buttons above keyboard and ```c``` and retry step 8
 Congratulations you have succesfully installed the LunarCore server
 ## Client installation 
 1. Download and install the modified game client from [here](https://github.com/Xuoos/StarRailProxy/releases/download/1.7/2.0_HSR_CustomServer_v1.7_Xuoos.apk)
@@ -38,8 +42,8 @@ Congratulations you have succesfully installed the LunarCore server
 5. On the login screen you can use any username and password(After the first log-in the information will be saved and you will be loged-in automatically
 6. Enjoy
 ## Stopping the server
-1. Open the nix-on-droid application press ```ctrl``` using the buttons above keyboard and ```c```.
-2. Type ```exit``` and press enter (the applicaiton will close automatically)
+1. Open the nix-on-droid application type ```stop``` to stop the server.
+2. Type ```exit``` and press enter to exit the application.
 ## Credits 
 1. Me
 2. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
