@@ -1,15 +1,6 @@
 # LunarCore-on-Android
 A comprehensive guide on how to run the server implementation of a certain turn based anime game on your android device completly offline 
-## Client installation:
-1. Download and install the modified game client from [here](https://github.com/Xuoos/StarRailProxy/releases/download/1.7/2.0_HSR_CustomServer_v1.7_Xuoos.apk)
-2. Open the newly installed app select the checkbox (1) and click here (2)
-<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step3.jpg" align="center" ></a>
-3. Click here (If you missed the promt just restart the app)
-<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step1.jpg" align="center" ></a>
-4. Turn the switch off (1) then press the reload button (2)
-<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step2.jpg" align="center" ></a>
-5. After the game restarts log-in with any hoyoverse account and get into the game at least once to download all the data (You can download any extra language packs you may want from here)
-6. You can leave the app without closing and the download will continue
+
 ## Server Installation: 
 1. Download and install F-droid [here](https://f-droid.org/)
 2. Open F-droid and search for "Nix-on-Droid" and install the app
@@ -22,15 +13,17 @@ A comprehensive guide on how to run the server implementation of a certain turn 
 nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs && nix-channel --update && nix-env -iA nixpkgs.git && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && . install.sh
 ```
 Congratulations you have succesfully installed the LunarCore server
-## First Log-in
-After downloading the game data from "Client installation" step
-1. Open the app and click here (If you missed the promt just restart the app)
+## Client installation 
+1. Download and install the modified game client from [here](https://github.com/Xuoos/StarRailProxy/releases/download/1.7/2.0_HSR_CustomServer_v1.7_Xuoos.apk)
+2. Open the newly installed app select the checkbox (1) and click here (2)
+<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step3.jpg" align="center" ></a>
+3. Open the app and click here (If you missed the promt just restart the app)
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step1.jpg" align="center" ></a>
-2. Turn the switch to the on position (1) and click the button as shown in the picture (2)
+4. Turn the switch to the on position (1) and click the button as shown in the picture (2)
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step4.jpg" align="center" ></a>
-3. In the text box type ```http://127.0.0.1:5000``` and click on the button as shown in the picture
+5. In the text box type ```http://127.0.0.1:5000``` and click on the button as shown in the picture
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step5.jpg" align="center" ></a>
-4. Press on the button as shown in the picture
+6. Press on the button as shown in the picture
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step6.jpg" align="center" ></a>
 
 The client has been succesfully configured 
