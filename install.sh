@@ -15,3 +15,4 @@ cd ..
 rm -rf LunarCore-Configs
 cp start.sh ~/
 cd
+. start.sh
