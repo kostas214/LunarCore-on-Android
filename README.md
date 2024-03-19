@@ -12,11 +12,7 @@ A comprehensive guide on how to run the server implementation of a certain turn 
 ```sh
 nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs && nix-channel --update && nix-env -iA nixpkgs.git && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && . install.sh
 ```
-8. Copy and paste this command
-```sh
-. start.sh
-```
-9. If the server fails to start press ```ctrl``` using the buttons above keyboard and ```c``` and retry step 8
+9. If the server fails to start type ```stop``` and type ```. start.sh```
 Congratulations you have succesfully installed the LunarCore server
 ## Client installation 
 1. Download and install the modified game client from [here](https://github.com/Xuoos/StarRailProxy/releases/download/1.7/2.0_HSR_CustomServer_v1.7_Xuoos.apk)
