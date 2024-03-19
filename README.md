@@ -19,14 +19,13 @@ Congratulations you have succesfully installed the LunarCore server
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step3.jpg" align="center" ></a>
 3. Open the app and click here (If you missed the promt just restart the app)
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step1.jpg" align="center" ></a>
-4. Turn the switch to the on position (1) and click the button as shown in the picture (2)
-<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step4.jpg" align="center" ></a>
+4. Click the button as shown in the picture 
+<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step7.jpg" align="center" ></a>
 5. In the text box type ```http://127.0.0.1:5000``` and click on the button as shown in the picture
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step5.jpg" align="center" ></a>
 6. Press on the button as shown in the picture
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step6.jpg" align="center" ></a>
-
-The client has been succesfully configured 
+8. Start the server then login and wait for the data to download
 ## Starting the server
 1. Open Nix-on-droid application
 2. Copy and paste this command
