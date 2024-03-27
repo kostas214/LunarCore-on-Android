@@ -16,7 +16,7 @@ nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs && nix-channel 
    
 Congratulations you have succesfully installed the LunarCore server
 ## Client installation 
-1. Download and install the modified game client from [here](https://github.com/Xuoos/StarRailProxy/releases/download/1.7/2.0_HSR_CustomServer_v1.7_Xuoos.apk)
+1. Download and install the modified game client from [here](https://github.com/Xuoos/StarRailProxy/releases/download/1.9_/2.1_HSR_CustomServer_v1.9_Xuoos.apk)
 2. Open the newly installed app select the checkbox (1) and click here (2)
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step3.jpg" align="center" ></a>
 3. Open the app and click here (If you missed the promt just restart the app)
