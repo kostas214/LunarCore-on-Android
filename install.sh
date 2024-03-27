@@ -1,5 +1,7 @@
 nix-env -iA nixpkgs.nano nixpkgs.mongodb nixpkgs.jdk17 nixpkgs.wget nixpkgs.unzip nixpkgs.rsync
-wget https://github.com/Melledy/LunarCore/releases/download/v1.2.0/LunarCore.jar
+wget https://nightly.link/Melledy/LunarCore/workflows/build/development/LunarCore.zip
+unzip LunarCore.zip
+rm LunarCore.zip
 mkdir resources
 git clone https://github.com/Dimbreath/StarRailData
 cd StarRailData
