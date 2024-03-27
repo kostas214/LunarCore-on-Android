@@ -3,7 +3,6 @@ wget https://github.com/Melledy/LunarCore/releases/download/v1.2.0/LunarCore.jar
 mkdir resources
 git clone https://github.com/Dimbreath/StarRailData
 cd StarRailData
-git reset --hard 93fdc2f
 mv Config ExcelOutput TextMap ~/LunarCore-on-Android/resources
 cd ~/LunarCore-on-Android/resources/Config 
 rm -rf ConfigSummonUnit LevelOutput
@@ -11,7 +10,6 @@ cd ~/LunarCore-on-Android
 rm -rf StarRailData
 git clone https://gitlab.com/Melledy/LunarCore-Configs
 cd LunarCore-Configs
-git reset --hard 63106472
 rsync -a Config ~/LunarCore-on-Android/resources
 cd ..
 rm -rf LunarCore-Configs
