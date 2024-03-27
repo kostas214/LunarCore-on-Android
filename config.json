@@ -106,10 +106,10 @@
     "filterLoopingPackets": false
   },
   "downloadData": {
-    "assetBundleUrl": "https://autopatchos.starrails.com/asb/V2.0Live/output_6487981_8a3134e5a585",
-    "exResourceUrl": "https://autopatchos.starrails.com/design_data/V2.0Live/output_6487981_8db6c1e48727",
-    "luaUrl": "https://autopatchos.starrails.com/lua/V2.0Live/output_6462483_48739588a53c",
-    "ifixUrl": "https://autopatchos.starrails.com/ifix/V2.0Live/output_0_13ac31896d"
+    "assetBundleUrl": "https://autopatchos.starrails.com/asb/V2.1Live/output_6745926_1a01bfe52144",
+    "exResourceUrl": "https://autopatchos.starrails.com/design_data/V2.1Live/output_6749401_5db453f74de7",
+    "luaUrl": "https://autopatchos.starrails.com/lua/V2.1Live/output_6748774_49751c5bfc33",
+    "ifixUrl": "https://autopatchos.starrails.com/ifix/V2.1Live/output_0_dd6fbd3f73e5"
   },
   "resourceDir": "./resources",
   "dataDir": "./data"
