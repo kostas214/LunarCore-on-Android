@@ -41,6 +41,10 @@ Congratulations you have succesfully installed the LunarCore server
 ## Stopping the server
 1. Open the nix-on-droid application type ```stop``` to stop the server.
 2. Type ```exit``` and press enter to exit the application.
+## Updating
+1. Download and update to the latest client from [here](https://github.com/Xuoos/StarRailProxy/releases) (make sure you are downloading an apk about 200mb)
+2. Open Nix-on-Droid
+3. Enter this command ```cd && cd LunarCore-on-Android && git pull && . update.sh```
 ## Credits 
 1. Me
 2. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
