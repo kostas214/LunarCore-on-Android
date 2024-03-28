@@ -2,9 +2,12 @@ nix-env -iA nixpkgs.nano nixpkgs.mongodb nixpkgs.jdk17 nixpkgs.wget nixpkgs.unzi
 wget https://nightly.link/Melledy/LunarCore/workflows/build/development/LunarCore.zip
 unzip LunarCore.zip
 rm LunarCore.zip
-wget https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Melledy/LunarCore/tree/development/data
-unzip data.zip
-rm data.zip
+mkdir data 
+cd data 
+wget https://raw.githubusercontent.com/Melledy/LunarCore/development/data/ActivityScheduling.json
+wget https://raw.githubusercontent.com/Melledy/LunarCore/development/data/Banners.json
+wget https://raw.githubusercontent.com/Melledy/LunarCore/development/data/RogueMapGen.json
+cd ..
 mkdir resources
 git clone https://github.com/Dimbreath/StarRailData
 cd StarRailData
