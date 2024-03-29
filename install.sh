@@ -9,14 +9,14 @@ wget https://raw.githubusercontent.com/Melledy/LunarCore/development/data/Banner
 wget https://raw.githubusercontent.com/Melledy/LunarCore/development/data/RogueMapGen.json
 cd ..
 mkdir resources
-git clone https://github.com/Dimbreath/StarRailData
+git clone --depth 1 https://github.com/Dimbreath/StarRailData
 cd StarRailData
 mv Config ExcelOutput TextMap ~/LunarCore-on-Android/resources
 cd ~/LunarCore-on-Android/resources/Config 
 rm -rf ConfigSummonUnit LevelOutput
 cd ~/LunarCore-on-Android
 rm -rf StarRailData
-git clone https://gitlab.com/Melledy/LunarCore-Configs
+git clone --depth 1 https://gitlab.com/Melledy/LunarCore-Configs
 cd LunarCore-Configs
 rsync -a Config ~/LunarCore-on-Android/resources
 cd ..
