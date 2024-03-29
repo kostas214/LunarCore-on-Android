@@ -107,9 +107,9 @@
   },
   "downloadData": {
     "assetBundleUrl": "https://autopatchos.starrails.com/asb/V2.1Live/output_6745926_1a01bfe52144",
-    "exResourceUrl": "https://autopatchos.starrails.com/design_data/V2.1Live/output_6749401_5db453f74de7",
-    "luaUrl": "https://autopatchos.starrails.com/lua/V2.1Live/output_6748774_49751c5bfc33",
-    "ifixUrl": "https://autopatchos.starrails.com/ifix/V2.1Live/output_0_dd6fbd3f73e5"
+    "exResourceUrl": "https://autopatchos.starrails.com/design_data/V2.1Live/output_6790993_b2f9ac3e5da38",
+    "luaUrl": "https://autopatchos.starrails.com/lua/V2.1Live/output_6790895_1b55432a2852",
+    "ifixUrl": "https://autopatchos.starrails.com/ifix/V2.1Live/output_6790240_1ed7a1a657e6"
   },
   "resourceDir": "./resources",
   "dataDir": "./data"
