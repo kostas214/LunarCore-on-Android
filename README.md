@@ -26,7 +26,7 @@ Congratulations you have succesfully installed the LunarCore server
 <a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step6.jpg" align="center" ></a>
 8. Wait for the data to download and you can play 
 ## Starting the server
-1. Open Nix-on-droid application
+1. Open Termux application
 2. Copy and paste this command
 ```sh
 . start.sh
@@ -36,18 +36,19 @@ Congratulations you have succesfully installed the LunarCore server
 5. On the login screen you can use any username and password(After the first log-in the information will be saved and you will be loged-in automatically
 6. Enjoy
 ## Stopping the server
-1. Open the nix-on-droid application type ```stop``` to stop the server.
+1. Open the Termux application type ```stop``` to stop the server.
 2. Type ```exit``` and press enter to exit the application.
 ## Updating
 1. Download and update to the latest client from [here](https://github.com/Xuoos/StarRailProxy/releases) (make sure you are downloading an apk about 200mb)
-2. Open Nix-on-Droid
+2. Open Termux
 3. Enter this command
  ```sh
  cd && cd LunarCore-on-Android && git reset --hard HEAD~1 && git pull && . update.sh
 ```
 ## Credits 
 1. Me
-2. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
-3. Xuoos for providing the modified client of the game [Their github page](https://github.com/Xuoos/StarRailProxy)
-4. Nix-on-droid team for making the application used in this tutorial [Their github page](https://github.com/nix-community/nix-on-droid) 
+2. Gorujo for small contributions
+3. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
+4. Xuoos for providing the modified client of the game [Their github page](https://github.com/Xuoos/StarRailProxy)
+5. Termux for making the application used in this tutorial [Their github page](https://github.com/termux/termux-app)
 
