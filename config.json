@@ -40,7 +40,7 @@
   "serverOptions": {
     "autoCreateAccount": true,
     "sceneMaxEntites": 500,
-    "maxCustomRelicLevel": 15,
+    "maxCustomRelicLevel": 9999,
     "unlockAllChallenges": true,
     "spendStamina": true,
     "staminaRecoveryRate": 300,
