@@ -24,4 +24,5 @@ cd ..
 rm -rf LunarCore-Configs
 cp start.sh ~/
 cd
-. start.sh
+chmod +x start.sh
+./start.sh
