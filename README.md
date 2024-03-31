@@ -43,7 +43,7 @@ Congratulations you have succesfully installed the LunarCore server
 2. Open Termux
 3. Enter this command
  ```sh
- cd && cd LunarCore-on-Android && git reset --hard HEAD~1 && git pull && . update.sh
+ cd && cd LunarCore-on-Android && git reset --hard HEAD~1 && git pull && ./update.sh
 ```
 ## Credits 
 1. Me
