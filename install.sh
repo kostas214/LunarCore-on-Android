@@ -1,4 +1,4 @@
-pkg install openjdk-17 wget rsync -y
+pkg install tur-repo -y && yes y|pkg upgrade && pkg install mongodb openjdk-17 wget curl rsync -y
 wget https://nightly.link/Melledy/LunarCore/workflows/build/development/LunarCore.zip
 unzip LunarCore.zip
 rm LunarCore.zip
