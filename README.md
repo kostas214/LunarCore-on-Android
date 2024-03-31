@@ -29,7 +29,7 @@ Congratulations you have succesfully installed the LunarCore server
 1. Open Termux application
 2. Copy and paste this command
 ```sh
-. start.sh
+./start.sh
 ```
 3. If the server fails to start press ```ctrl``` using the buttons above keyboard and ```c``` and retry step 2
 4. Open the modified client
