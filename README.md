@@ -2,17 +2,14 @@
 A comprehensive guide on how to run the server implementation of a certain turn based anime game on your android device completly offline 
 
 ## Server Installation: 
-1. Download and install F-droid [here](https://f-droid.org/)
-2. Open F-droid and search for "Nix-on-Droid" and install the app
-3. Open Nix-on-Droid
-4. When you first open the application it may ask you for notifications permission (android 13 and up) and a prompt for "Bootstrap zipball location" will appear and you need to click on yes (The bootstrap setup may fail and ask you to retry. Press on try again)
-5. When the installation of bootstrap packages finishes you will need to write ```y``` and press enter on your keyboard
-6. Wait for everything to finish(It will take a while so be patient. If it looks like its stuck, its not be patient it will eventually finish)
-7. After everything finishes copy the command bellow and paste it onto the terminal by long pressing and clicking paste (This too will take a while be patient)
+1. Download Termux from [here](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk)
+2. Open Termux
+3. When you first open the application it may ask you for notifications permission press ok (android 13 and up)
+4. After everything finishes copy the command bellow and paste it onto the terminal by long pressing and clicking paste (This too will take a while be patient)
 ```sh
-nix-channel --add https://nixos.org/channels/nixos-22.05 nixpkgs && nix-channel --update && nix-env -iA nixpkgs.git && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && . install.sh
+pkg install git && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && . install.sh
 ```
-9. If the server fails to start type ```stop``` and type ```. start.sh```
+5. If the server fails to start type ```stop``` and type ```. start.sh```
    
 Congratulations you have succesfully installed the LunarCore server
 ## Client installation 
