@@ -13,18 +13,9 @@ apt update && apt install git -y && git clone https://github.com/kostas214/Lunar
    
 Congratulations you have succesfully installed the LunarCore server
 ## Client installation 
-1. Download and install the modified game client from [here](https://github.com/Xuoos/StarRailProxy/releases/download/1.9_/2.1_HSR_CustomServer_v1.9_Xuoos.apk)
-2. Open the newly installed app select the checkbox (1) and click here (2)
-<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step3.jpg" align="center" ></a>
-3. Open the app and click here (If you missed the promt just restart the app)
-<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step1.jpg" align="center" ></a>
-4. Click the button as shown in the picture 
-<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step7.jpg" align="center" ></a>
-5. In the text box type ```http://127.0.0.1:5000``` and click on the button as shown in the picture
-<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step5.jpg" align="center" ></a>
-6. Press on the button as shown in the picture
-<a href="https://github.com/kostas214/LunarCore-on-Android"><img src="https://github.com/kostas214/LunarCore-on-Android/blob/main/Images/Step6.jpg" align="center" ></a>
-8. Wait for the data to download and you can play 
+1. Download and install the modified game client from [here](https://github.com/kostas214/LunarCore-on-Android/releases/download/v2.1/LunarCore-on-Android.apk)
+2. Log in with any username and password
+
 ## Starting the server
 1. Open Termux application
 2. Copy and paste this command
@@ -49,6 +40,5 @@ Congratulations you have succesfully installed the LunarCore server
 1. Me
 2. Gorujo for small contributions
 3. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
-4. Xuoos for providing the modified client of the game [Their github page](https://github.com/Xuoos/StarRailProxy)
-5. Termux for making the application used in this tutorial [Their github page](https://github.com/termux/termux-app)
+4. Termux for making the application used in this tutorial [Their github page](https://github.com/termux/termux-app)
 
