@@ -30,7 +30,7 @@ Congratulations you have succesfully installed the LunarCore server
 1. Open the Termux application type ```stop``` to stop the server.
 2. Type ```exit``` and press enter to exit the application.
 ## Updating
-1. Download and update to the latest client from [here](https://github.com/Xuoos/StarRailProxy/releases) (make sure you are downloading an apk about 200mb)
+1. Download and update to the latest client from [here](https://github.com/kostas214/LunarCore-on-Android/releases)
 2. Open Termux
 3. Enter this command
  ```sh
