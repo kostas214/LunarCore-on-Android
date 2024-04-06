@@ -5,7 +5,7 @@ A comprehensive guide on how to run the server implementation of a certain turn 
 1. Download and install Termux from [here](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk)
 2. Open Termux
 3. When you first open the application it may ask you for notifications permission press ok (android 13 and up)
-4. After everything finishes copy the command bellow and paste it onto the terminal by long pressing and clicking paste (This too will take a while be patient)
+4. After everything finishes copy the command bellow and paste it onto the terminal.
 ```sh
 apt update && apt install git -y && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && chmod +x install.sh && ./install.sh
 ```
