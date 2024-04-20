@@ -22,7 +22,7 @@ Congratulations you have succesfully installed the LunarCore server
 ```sh
 ./start.sh
 ```
-3. Either choose Online mode by typing ```1``` or offline mode by typing ```2```
+3. Either choose online mode by typing ```1``` or offline mode by typing ```2```
 4. If the server fails to start press ```ctrl``` using the buttons above keyboard and ```c``` and retry step 2
 5. Open the modified client
 6. On the login screen you can use any username and password(After the first log-in the information will be saved and you will be loged-in automatically
