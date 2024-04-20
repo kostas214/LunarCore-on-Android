@@ -3,6 +3,7 @@ chmod +x update.sh
 chmod +x start.sh
 chmod +x firstStart.sh
 pip install blackboxprotobuf
+pip install requests
 wget https://nightly.link/Melledy/LunarCore/workflows/build/development/LunarCore.zip
 unzip LunarCore.zip
 rm LunarCore.zip
