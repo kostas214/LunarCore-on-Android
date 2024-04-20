@@ -26,7 +26,6 @@ rsync -a Config ~/LunarCore-on-Android/resources
 cd ..
 rm -rf LunarCore-Configs
 cp start.sh ~/
-cd
 chmod +x start.sh
 python3 hotFixGraber.py 1
 ./firstStart.sh
