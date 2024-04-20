@@ -27,4 +27,5 @@ rm -rf LunarCore-Configs
 cp start.sh ~/
 cd
 chmod +x start.sh
+python3 hotFixGraber.py 1
 ./start.sh
