@@ -1,3 +1,6 @@
+apt install tur-repo -y && yes y|pkg upgrade && pkg install mongodb openjdk-17 wget curl rsync python3 -y
+pip install blackboxprotobuf
+pip install requests
 rm -rf resources LunarCore.jar data 
 wget https://nightly.link/Melledy/LunarCore/workflows/build/development/LunarCore.zip
 unzip LunarCore.zip
