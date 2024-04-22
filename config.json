@@ -106,10 +106,10 @@
     "filterLoopingPackets": false
   },
   "downloadData": {
-    "assetBundleUrl": "https://autopatchos.starrails.com/asb/V2.1Live/output_6807593_9ac86b7f84e1",
-    "exResourceUrl": "https://autopatchos.starrails.com/design_data/V2.1Live/output_6805381_6524a2fc5b65",
-    "luaUrl": "https://autopatchos.starrails.com/lua/V2.1Live/output_6805253_9c446dcea243",
-    "ifixUrl": "https://autopatchos.starrails.com/ifix/V2.1Live/output_6790240_1ed7a1a657e6"
+    "assetBundleUrl": null,
+    "exResourceUrl": null,
+    "luaUrl": null,
+    "ifixUrl": null
   },
   "resourceDir": "./resources",
   "dataDir": "./data"
