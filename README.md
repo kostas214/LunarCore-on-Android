@@ -9,7 +9,7 @@ A comprehensive guide on how to run the server implementation of a certain turn 
 ```sh
 apt update && apt install git -y && git clone https://github.com/kostas214/LunarCore-on-Android.git && cd LunarCore-on-Android && chmod +x install.sh && ./install.sh
 ```
-5. If the server fails to start type ```stop``` and type ```./start.sh```
+5. If the server fails to start type ```stop``` and type ```./start.sh``` (If the error persists restart your phone)
    
 Congratulations you have succesfully installed the LunarCore server
 ## Client installation 
@@ -23,7 +23,7 @@ Congratulations you have succesfully installed the LunarCore server
 ./start.sh
 ```
 3. Either choose online mode by typing ```1``` or offline mode by typing ```2```
-4. If the server fails to start press ```ctrl``` using the buttons above keyboard and ```c``` and retry step 2
+4. If the server fails to start press ```ctrl``` using the buttons above keyboard and ```c``` and retry step 2 (If the error persists restart your phone)
 5. Open the modified client
 6. On the login screen you can use any username and password(After the first log-in the information will be saved and you will be loged-in automatically
 7. Enjoy
