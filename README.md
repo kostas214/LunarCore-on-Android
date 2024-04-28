@@ -39,7 +39,6 @@ Congratulations you have succesfully installed the LunarCore server
 ```
 ## Credits 
 1. Me
-2. Gorujo for small contributions
-3. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
-4. Termux for making the application used in this tutorial [Their github page](https://github.com/termux/termux-app)
+2. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
+3. Termux for making the application used in this tutorial [Their github page](https://github.com/termux/termux-app)
 
