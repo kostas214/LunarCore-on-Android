@@ -25,7 +25,6 @@ while True:
         try:
             request = requests.get(url)
             config = base64.b64decode(request.content)
-            print(config)
             decode,messagetype = blackboxprotobuf.protobuf_to_json(config)
             for key, pattern in hotfixPatterns.items():
                 idk = re.findall(pattern, decode)
