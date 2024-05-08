@@ -18,7 +18,7 @@ git clone --depth 1 https://github.com/Dimbreath/StarRailData
 cd StarRailData
 mv Config ExcelOutput TextMap ~/LunarCore-on-Android/resources
 cd ~/LunarCore-on-Android/resources/Config 
-rm -rf ConfigSummonUnit LevelOutput
+rm -rf LevelOutput
 cd ~/LunarCore-on-Android
 rm -rf StarRailData
 git clone --depth 1 https://gitlab.com/Melledy/LunarCore-Configs
