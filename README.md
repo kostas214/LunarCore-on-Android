@@ -13,7 +13,7 @@ apt update && apt install git -y && git clone https://github.com/kostas214/Lunar
    
 Congratulations you have succesfully installed the LunarCore server
 ## Client installation 
-1. Download and install the modified game client from [here](https://github.com/kostas214/LunarCore-on-Android/releases/download/v2.1/LunarCore-on-Android.apk)
+1. Download and install the latest modified game client from [here](https://github.com/kostas214/LunarCore-on-Android/releases)
 2. Log in with any username and password
 
 ## Starting the server
