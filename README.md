@@ -38,7 +38,6 @@ Congratulations you have succesfully installed the LunarCore server
  cd && cd LunarCore-on-Android && git reset --hard HEAD~1 && git pull && . update.sh
 ```
 ## Credits 
-1. Me
-2. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
-3. Termux for making the application used in this tutorial [Their github page](https://github.com/termux/termux-app)
+1. The Lunar Core team [Their github page](https://github.com/Melledy/LunarCore)
+2. Termux for making the application used in this tutorial [Their github page](https://github.com/termux/termux-app)
 
