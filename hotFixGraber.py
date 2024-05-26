@@ -24,34 +24,34 @@ while True:
     if onlineOrOffline == str(1):
         try:
             request = requests.get(url)
-            config = base64.b64decode(request.content)
-            decode,messagetype = blackboxprotobuf.protobuf_to_json(config)
+            hotfix = base64.b64decode(request.content)
+            decode,messagetype = blackboxprotobuf.protobuf_to_json(hotfix)
             for key, pattern in hotfixPatterns.items():
                 idk = re.findall(pattern, decode)
                 hotfixPatterns[key] = idk[0]
-            with open('config.json', 'r+') as f:
-                config = json.load(f)
+            with open('hotfix.json', 'r+') as f:
+                hotfix = json.load(f)
             for i in hotfixPatterns.keys():
-                config['downloadData'][i] = hotfixPatterns[i]
-            with open('config.json', 'w') as f:
-                json.dump(config, f, indent=4)
+                hotfix[i] = hotfixPatterns[i]
+            with open('hotfix.json', 'w') as f:
+                json.dump(hotfix, f, indent=4)
             break
         except:
             print("Oh no error falling back to offline mode")
-            with open('config.json', 'r+') as f:
-                config = json.load(f)
+            with open('hotfix.json', 'r+') as f:
+                hotfix = json.load(f)
             for i in hotfixPatterns.keys():
-                config['downloadData'][i] = None
-            with open('config.json', 'w') as f:
-                json.dump(config, f, indent=4)
+                hotfix[i] = None
+            with open('hotfix.json', 'w') as f:
+                json.dump(hotfix, f, indent=4)
             break
     elif onlineOrOffline == str(2):
-        with open('config.json', 'r+') as f:
-            config = json.load(f)
+        with open('hotfix.json', 'r+') as f:
+            hotfix = json.load(f)
         for i in hotfixPatterns.keys():
-            config['downloadData'][i] = None
-        with open('config.json', 'w') as f:
-            json.dump(config, f, indent=4)
+            hotfix[i] = None
+        with open('hotfix.json', 'w') as f:
+            json.dump(hotfix, f, indent=4)
         break
     else:
         onlineOrOffline = input("Online(1)/Offline(2):")
