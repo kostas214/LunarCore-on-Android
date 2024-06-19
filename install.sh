@@ -17,8 +17,6 @@ mkdir resources
 git clone --depth 1 https://github.com/Dimbreath/StarRailData
 cd StarRailData
 mv Config ExcelOutput TextMap ~/LunarCore-on-Android/resources
-cd ~/LunarCore-on-Android/resources/Config 
-rm -rf LevelOutput
 cd ~/LunarCore-on-Android
 rm -rf StarRailData
 cp start.sh ~/
