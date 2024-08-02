@@ -5,8 +5,8 @@ import re
 import json
 import sys
 
-dispatchSeed = "dc246c1ceb"
-version = "2.3"
+dispatchSeed = "5e645c358d"
+version = "2.4"
 versionType= "Live"
 url = f"https://prod-official-eur-dp01.starrails.com/query_gateway?version=OSPRODWin{version}.0&t=1713563129&uid=10004&language_type=3&platform_type=3&dispatch_seed={dispatchSeed}&channel_id=1&sub_channel_id=1&is_need_url=1&account_type=1&account_uid=307575403"
 hotfixPatterns = {
