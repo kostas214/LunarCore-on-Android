@@ -4,10 +4,9 @@ chmod +x start.sh
 chmod +x firstStart.sh
 pip install blackboxprotobuf
 pip install requests
-wget https://nightly.link/FireflyClub/FireflyCore/workflows/build/main/FireflyCore.zip
-unzip FireflyCore.zip
-rm FireflyCore.zip
-mv FireflyCore.jar LunarCore.jar
+wget https://nightly.link/Melledy/LunarCore/workflows/build/development/LunarCore.zip
+unzip LunarCore.zip
+rm LunarCore.zip
 mkdir data 
 cd data 
 wget https://raw.githubusercontent.com/Melledy/LunarCore/development/data/ActivityScheduling.json
