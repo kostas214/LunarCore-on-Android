@@ -1,0 +1,140 @@
+{
+  "accountDatabase": {
+    "uri": "mongodb://localhost:27017",
+    "collection": "FireflyCore",
+    "useInternal": false
+  },
+  "gameDatabase": {
+    "uri": "mongodb://localhost:27017",
+    "collection": "FireflyCore",
+    "useInternal": false
+  },
+  "internalMongoServer": {
+    "address": "localhost",
+    "port": 27017,
+    "filePath": "database.mv"
+  },
+  "useSameDatabase": true,
+  "keystore": {
+    "path": "./keystore.p12",
+    "password": ""
+  },
+  "httpServer": {
+    "useSSL": false,
+    "regionListRefresh": 60000,
+    "bindAddress": "0.0.0.0",
+    "bindPort": 5000,
+    "publicAddress": "127.0.0.1",
+    "publicPort": null
+  },
+  "gameServer": {
+    "id": "FireflyCore",
+    "name": "FireflyCore",
+    "description": "FireflyCore",
+    "kcpInterval": 40,
+    "kcpTimeout": 30,
+    "bindAddress": "0.0.0.0",
+    "bindPort": 2007,
+    "publicAddress": "127.0.0.1",
+    "publicPort": null
+  },
+  "serverOptions": {
+    "useMission": false,
+    "sceneMaxEntites": 500,
+    "maxCustomRelicLevel": 15,
+    "unlockAllChallenges": true,
+    "spendStamina": true,
+    "staminaRecoveryRate": 300,
+    "staminaReserveRecoveryRate": 1080,
+    "startTrailblazerLevel": 1,
+    "autoUpgradeWorldLevel": true,
+    "language": "CHS",
+    "defaultPermissions": [
+      "player"
+    ],
+    "serverFriendInfo": {
+      "name": "FireflyCore-Console",
+      "signature": "Type /help for a list of the modified commands.",
+      "level": 70,
+      "headIcon": 202007,
+      "chatBubbleId": 0,
+      "displayAvatars": [
+        {
+          "avatarId": 1220,
+          "level": 80
+        },
+        {
+          "avatarId": 1222,
+          "level": 80
+        }
+      ]
+    },
+    "serverChatFriendInfo": {
+      "name": "FireflyCore-World",
+      "signature": "Be free chating here!",
+      "level": 70,
+      "headIcon": 202016,
+      "chatBubbleId": 0,
+      "displayAvatars": [
+        {
+          "avatarId": 1223,
+          "level": 80
+        }
+      ]
+    },
+    "welcomeMail": {
+      "title": "Welcome to a FireflyCore",
+      "sender": "FireflyCore",
+      "content": "Welcome to FireflyCore, a modified version of LunarCore.",
+      "attachments": [
+        {
+          "id": 2,
+          "count": 1000000
+        },
+        {
+          "id": 101,
+          "count": 1000
+        },
+        {
+          "id": 102,
+          "count": 1000
+        }
+      ]
+    }
+  },
+  "accountOptions": {
+    "autoCreateAccount": true,
+    "maxPlayers": -1,
+    "consoleRemoteKey": "",
+    "useLogin": false,
+    "adminLoginSkip": true,
+    "limitDeviceId": false,
+    "maxDeviceId": 3
+  },
+  "serverTime": {
+    "spoofTime": false,
+    "spoofDate": "15-01-2024 02:00:00"
+  },
+  "serverRates": {
+    "exp": 1.0,
+    "credit": 1.0,
+    "jade": 1.0,
+    "material": 1.0,
+    "equip": 1.0
+  },
+  "logOptions": {
+    "commands": true,
+    "connections": true,
+    "easyPackets": false,
+    "packets": false,
+    "filterLoopingPackets": false
+  },
+  "announceData": {
+    "useBanner": false,
+    "bannerText": "FireflyCore By Lethe",
+    "adminBannerText": "FireflyCore By Lethe (Admin Access)",
+    "bannerFrequency": 0
+  },
+  "resourceDir": "./resources",
+  "dataDir": "./config"
+}
