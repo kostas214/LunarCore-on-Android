@@ -34,7 +34,7 @@
     "kcpInterval": 40,
     "kcpTimeout": 30,
     "bindAddress": "0.0.0.0",
-    "bindPort": 2007,
+    "bindPort": 23301,
     "publicAddress": "127.0.0.1",
     "publicPort": null
   },
@@ -48,9 +48,9 @@
     "staminaReserveRecoveryRate": 1080,
     "startTrailblazerLevel": 1,
     "autoUpgradeWorldLevel": true,
-    "language": "CHS",
+    "language": "EN",
     "defaultPermissions": [
-      "player"
+      "*"
     ],
     "serverFriendInfo": {
       "name": "FireflyCore-Console",
