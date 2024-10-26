@@ -29,7 +29,7 @@ while True:
             for key, pattern in hotfixPatterns.items():
                 idk = re.findall(pattern, decode)
                 hotfixPatterns[key] = idk[0]
-            with open('Config/hotfix.json', 'r+') as f:
+            with open('config/Hotfix.json', 'r+') as f:
                 hotfix = json.load(f)
             for i in hotfixPatterns.keys():
                 hotfix[i] = hotfixPatterns[i]
@@ -38,7 +38,7 @@ while True:
             break
         except:
             print("Oh no error falling back to offline mode")
-            with open('Config/hotfix.json', 'r+') as f:
+            with open('config/Hotfix.json', 'r+') as f:
                 hotfix = json.load(f)
             for i in hotfixPatterns.keys():
                 hotfix[i] = None
@@ -46,7 +46,7 @@ while True:
                 json.dump(hotfix, f, indent=4)
             break
     elif onlineOrOffline == str(2):
-        with open('Config/hotfix.json', 'r+') as f:
+        with open('config/Hotfix.json', 'r+') as f:
             hotfix = json.load(f)
         for i in hotfixPatterns.keys():
             hotfix[i] = None
