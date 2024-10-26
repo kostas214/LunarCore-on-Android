@@ -2,12 +2,12 @@
   "accountDatabase": {
     "uri": "mongodb://localhost:27017",
     "collection": "FireflyCore",
-    "useInternal": false
+    "useInternal": true
   },
   "gameDatabase": {
     "uri": "mongodb://localhost:27017",
     "collection": "FireflyCore",
-    "useInternal": false
+    "useInternal": true
   },
   "internalMongoServer": {
     "address": "localhost",
